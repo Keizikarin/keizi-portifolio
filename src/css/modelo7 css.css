@@ -1,0 +1,46 @@
+body{
+    font-family:arial ,sans-sarif;
+    margin:40px ;
+    color: 555;
+    background-color: #f7f7f7;
+}
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 5px;
+    box-shadow:0 4px 6px rgba (0,0,0,0.1) ;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.perfil-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%  ;
+}
+.perfil-content{
+    flex-grow: 1;
+}
+section{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.projetos a{
+    color: 7bff;
+    text-decoration: none;
+}
+.projetos a: :hover {
+    text-decoration:underline;
+}
+footer{
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
+}
