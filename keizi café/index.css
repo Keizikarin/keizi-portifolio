@@ -1,0 +1,32 @@
+body {
+    background-color:rgb(255, 160, 122);/*cor do fundo */
+    color:white ;/*cor da letra*/
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+ul{
+    display:inline-block;
+    justify-content:space-between;
+    list-style-type:none;
+    text-align:right;
+    padding: 16px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+img{
+    border-radius:10%;
+    border: 5px solid rgb(248, 36, 202)
+}
+
+.center{
+    text-align:center;
+}
+
+.box{
+    text-align:center;
+}
+
